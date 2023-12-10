@@ -1,0 +1,43 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-micdec2023one-dev-94152-authRole",
+      "UnauthRoleArn": "arn:aws:iam::332658102121:role/amplify-micdec2023one-dev-94152-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::332658102121:role/amplify-micdec2023one-dev-94152-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-micdec2023one-dev-94152-deployment",
+      "UnauthRoleName": "amplify-micdec2023one-dev-94152-unauthRole",
+      "StackName": "amplify-micdec2023one-dev-94152",
+      "StackId": "arn:aws:cloudformation:us-east-1:332658102121:stack/amplify-micdec2023one-dev-94152/41af6040-96ba-11ee-85bf-1242f6c563c7",
+      "AmplifyAppId": "d26re7rf0b14lg"
+    }
+  },
+  "function": {
+    "micdec2023oned8f91c73": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2023-12-09T17:47:52.542Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2023-12-09T17:48:09.037Z",
+      "distZipFilename": "micdec2023oned8f91c73-6338552b436f65307632-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-micdec2023one-dev-94152-deployment",
+        "s3Key": "amplify-builds/micdec2023oned8f91c73-6338552b436f65307632-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-micdec2023one-dev-94152-deployment/amplify-cfn-templates/function/micdec2023oned8f91c73-cloudformation-template.json",
+        "logicalId": "functionmicdec2023oned8f91c73"
+      },
+      "lastPushTimeStamp": "2023-12-09T17:49:47.455Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::332658102121:role/micdec2023oneLambdaRolef5173a74-dev",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:332658102121:function:micdec2023oned8f91c73-dev",
+        "Name": "micdec2023oned8f91c73-dev",
+        "LambdaExecutionRole": "micdec2023oneLambdaRolef5173a74-dev"
+      },
+      "lastPushDirHash": "boiQO0HA/Gzys/wVafMXGufeO8E="
+    }
+  }
+}

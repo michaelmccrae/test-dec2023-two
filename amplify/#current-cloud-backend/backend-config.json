@@ -1,0 +1,27 @@
+{
+  "function": {
+    "micdec2023oned8f91c73": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_micdec2023oned8f91c73_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "micdec2023oned8f91c73"
+        }
+      ]
+    },
+    "AMPLIFY_function_micdec2023oned8f91c73_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "micdec2023oned8f91c73"
+        }
+      ]
+    }
+  }
+}
